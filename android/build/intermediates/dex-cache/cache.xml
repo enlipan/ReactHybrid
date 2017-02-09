@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b49a04a3016689b372ecbb77f0c33e486e768cca">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.41.2_b248e0c60e32ebae0726cc513dc841e153e48cd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_494b2939a221f359380ec9e1c06dc6d93c6e1d11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_b65bf4fabfedd333e95da11a176e3e31f1d327a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_aac973cbc078c8ce73e82bf243b1d84e0b467ad1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_1a83ebf16b4fa332208583d03df9c92a87231dfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_ded7ead6d3d2af885a1ea1707412d1fa336ac785.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_b2c2dedd8c47ac2595043464de3b5aee8fdb4cec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_768b9fbe9ec1377ff5bf8d7a71f029bc0cf4eddf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_cd6c0783c1f136988b7a8984639bafc01a5b92cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_b7df61596fd9a7aff6bfa82b88c2e978f13b508f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_093e37a76d2f79df3e1b4303a00cc169f5a724cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_8292542d2d10983fd5f4abda976153c6442fa139.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_73a64e92615a2b2e86438ae47bafeda66f619c82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_280865bf4f75886656ae8bd32dfbfd56e58053aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_1c6dd8d83cdf6426bed43ae9584492b5f80a6b29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_a503d71351d720aae0e49553f24a916436b5a5ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_91dbf479516797d45f9f603ad456734613275efd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_751e4e26a8aae31cebf3df2daa8e4747f729a7ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_9a03c2392121036ce47cb3173c4e28b73738262e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_e54ec8d89f828794ef4c3ec31c715dc1e5fad4c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_b08bfeebcc20ebec77a215eb0604e40e1f8a12bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_530e3dd121a75f53a4f78dfc78d1438d3a69b48c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_dfd917378c759184e4e525636e62f1d7178b95b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_6fd4467b7218fdd7ecd90f881774cf62a9ba3300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_f658dea3704bcb101c80d5eef9b891d622a27e86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_15a3e79ac7d01a156ff4d791527dc055499e7c2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_42eacb3ba83e3ab13592d8747c3000db84c95e44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_4165c477d2b204775afc6a58bb6257aa2fbb6e41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_6cec43f1d839d9862bdfaafd6ce290bc8ce5f5d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paul/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/paul/Documents/Souche/AwesomProject/ReactNative/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_637364608bb866350e349158dea7a05f77f826c4.jar" />
+    </item>
+
+</items>
