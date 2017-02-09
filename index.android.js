@@ -6,7 +6,8 @@ import {
   StyleSheet,
   Text,
   Alert,
-  View
+  View,
+  DeviceEventEmitter
 } from 'react-native';
 
 import NativeToastAndroid from './ModuleToastAndroid';
@@ -24,7 +25,15 @@ const resultCallBack = () => {
   );
 }
 
+
 class HelloWorld extends React.Component {
+
+  componentDidMount(){
+    //事件注册 - 注意名称的对应
+    DeviceEventEmitter.addListener('EventSend',(info)=>{
+         Alert.alert(info);
+    });
+  }
 
   render() {
     return (
@@ -32,7 +41,7 @@ class HelloWorld extends React.Component {
         <Text style={styles.hello} onPress={show}>showToast</Text>
         <Text style={styles.hello} onPress={resultCallBack}>showCallBackInfo</Text>
       </View>
-    )
+    );
   }
 }
 

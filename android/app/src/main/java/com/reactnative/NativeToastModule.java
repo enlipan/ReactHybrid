@@ -1,13 +1,19 @@
 package com.reactnative;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.widget.Toast;
 
+import com.facebook.react.bridge.ActivityEventListener;
+import com.facebook.react.bridge.BaseActivityEventListener;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.react.module.annotations.ReactModule;
+import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,6 +29,11 @@ public class NativeToastModule extends ReactContextBaseJavaModule {
 
     public NativeToastModule(ReactApplicationContext reactContext) {
         super(reactContext);
+
+        /**
+         * 注册 ActivityEventListener 可用于接受 OnActivityResult
+         */
+        reactContext.addActivityEventListener(mActivityEventListener);
     }
 
     /**
@@ -91,6 +102,8 @@ public class NativeToastModule extends ReactContextBaseJavaModule {
                     Thread.sleep(time);
 
                     callback.invoke(time);
+
+                    sendEvent(getReactApplicationContext(),"EventSend","React Fire");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -102,10 +115,27 @@ public class NativeToastModule extends ReactContextBaseJavaModule {
 
     /**
      *  发送事件返回值到 Js
+     *
+     *  emit 发送的事件名称需要与 js中注册 addListener 中填入名称对应
      */
-    @ReactMethod
-    public void  sendEvent(){
+    public void  sendEvent(ReactContext reactContext,String eventName, Object params){
+
+        reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
+                    .emit(eventName,params);
 
     }
+
+
+    /**
+     * onActivityResult
+     */
+    private final ActivityEventListener mActivityEventListener = new BaseActivityEventListener(){
+
+        @Override
+        public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
+            super.onActivityResult(activity, requestCode, resultCode, data);
+
+        }
+    };
 
 }
