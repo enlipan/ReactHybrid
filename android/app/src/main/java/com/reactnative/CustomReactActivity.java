@@ -18,7 +18,7 @@ import com.facebook.react.shell.MainReactPackage;
  * Created by paul on 2017/2/8.
  */
 
-public class ReactActivity extends AppCompatActivity implements DefaultHardwareBackBtnHandler {
+public class CustomReactActivity extends AppCompatActivity implements DefaultHardwareBackBtnHandler {
     private static final int OVERLAY_PERMISSION_REQ_CODE = 0x11;
     private ReactRootView mReactRootView;
     private ReactInstanceManager mReactInstanceManager;
