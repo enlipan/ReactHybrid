@@ -1,4 +1,4 @@
-package com.reactnative;
+package com.reactnative.rn;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,6 +13,7 @@ import com.facebook.react.ReactRootView;
 import com.facebook.react.common.LifecycleState;
 import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler;
 import com.facebook.react.shell.MainReactPackage;
+import com.reactnative.BuildConfig;
 
 /**
  * Created by paul on 2017/2/8.

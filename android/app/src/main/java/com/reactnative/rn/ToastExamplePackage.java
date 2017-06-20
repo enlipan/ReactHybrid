@@ -1,4 +1,4 @@
-package com.reactnative;
+package com.reactnative.rn;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

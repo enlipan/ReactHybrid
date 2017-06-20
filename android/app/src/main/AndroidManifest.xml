@@ -20,7 +20,7 @@
 
 
         <activity
-            android:name="com.reactnative.CustomReactActivity"
+            android:name="com.reactnative.rn.CustomReactActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>

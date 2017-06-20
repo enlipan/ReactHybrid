@@ -1,4 +1,4 @@
-package com.reactnative;
+package com.reactnative.rn;
 
 import android.app.Activity;
 import android.content.Intent;
