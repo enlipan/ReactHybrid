@@ -11,16 +11,16 @@ import {
 } from 'react-native';
 
 import NativeToastAndroid from './ModuleToastAndroid';
+import SplashHideModule from './SplashHideModule';
 
 const show = () => {
-  //Alert.alert('Button has been Pressed!!!');
   NativeToastAndroid.show('Toast From Js',NativeToastAndroid.SHORT);
 }
 
 const resultCallBack = () => {
   NativeToastAndroid.showCallBackInfo('Toast CallBack',NativeToastAndroid.LONG,
   (info) => {
-    Alert.alert('sleep time:' + info);
+    console.warn('sleep time:' + info);
   }
   );
 }
@@ -28,11 +28,16 @@ const resultCallBack = () => {
 
 class HelloWorld extends React.Component {
 
-  componentDidMount(){
+  hideSplash = ()=>{
+    SplashHideModule.hideSplash();
+  }
+
+  componentDidMount(){ 
     //事件注册 - 注意名称的对应
     DeviceEventEmitter.addListener('EventSend',(info)=>{
          Alert.alert(info);
     });
+    this.hideSplash();
   }
 
   render() {

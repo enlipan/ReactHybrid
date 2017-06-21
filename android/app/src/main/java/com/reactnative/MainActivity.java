@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.reactnative.rn.CustomReactActivity;
+import com.reactnative.rn.SubReactActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        findViewById(R.id.tv_hello2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,SubReactActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

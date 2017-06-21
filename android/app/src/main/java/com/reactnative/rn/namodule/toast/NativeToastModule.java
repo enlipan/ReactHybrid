@@ -1,4 +1,4 @@
-package com.reactnative.rn;
+package com.reactnative.rn.namodule.toast;
 
 import android.app.Activity;
 import android.content.Intent;

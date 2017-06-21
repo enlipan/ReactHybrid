@@ -1,4 +1,4 @@
-package com.reactnative.rn;
+package com.reactnative.rn.namodule.splash;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -11,10 +11,14 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by paul on 2017/2/9.
+ * Created by paul on 2017/6/21.
  */
 
-public class ToastExamplePackage implements ReactPackage {
+public class SplashModulePackage implements ReactPackage {
+    @Override
+    public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
+        return Arrays.<NativeModule>asList(new NativeSplashModule(reactContext));
+    }
 
     @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
@@ -26,14 +30,4 @@ public class ToastExamplePackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    /**
-     * 引入NativeModel
-     *
-     * @param reactContext
-     * @return
-     */
-    @Override
-    public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        return Arrays.<NativeModule>asList(new NativeToastModule(reactContext));
-    }
 }
